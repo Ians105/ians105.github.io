@@ -1,0 +1,88 @@
+* {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: "Trebuchet MS", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    min-width: 200px;
+    max-width: 420px;
+}
+
+.rectangle {
+    width: 200px;
+    background-color: #ff6700;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.32);
+}
+
+.secondary {
+    width: 200px;
+    height: 200px;
+    background-color: #0000cd;
+}
+
+.one {
+    border-radius: 100%;
+}
+
+.two {
+    border-radius: 0 0 100% 0;
+}
+
+.three {
+    width: 100px;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    background-color: #ff6700;
+}
+
+.four .secondary {
+    width: 40px;
+    height: 200px;
+    background-color: #0000cd;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.five {
+    width: 100px;
+    height: 200px;
+}
+
+.left {
+    border-radius: 0 100% 100% 0;
+    background-color: #0000cd;
+}
+.right {
+    border-radius: 100% 0 0 100%;
+    background-color: #0000cd;
+}
+
+.secondary:hover {
+    background-color: #fff8e7;
+    transition: background-color 0.3s ease;
+}
